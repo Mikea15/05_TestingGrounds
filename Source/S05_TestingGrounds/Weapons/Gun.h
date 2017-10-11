@@ -14,6 +14,7 @@ public:
 	// Sets default values for this actor's properties
 	AGun();
 
+	UFUNCTION(BlueprintCallable, Category = "Input")
 	void OnFire();
 
 protected:
